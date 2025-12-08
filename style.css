@@ -40,6 +40,7 @@ body {
 }
 
 .bloc{
+    max-height: 300px;
     overflow: hidden;
     margin: 10px;
     background: rgba(16, 21, 61, .5);
