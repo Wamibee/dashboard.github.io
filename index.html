@@ -156,13 +156,13 @@
       <circle cx="45%" cy="50%" r="20%"/>
     </svg>
   </div>
+</div>
+<script>
+    let fileDate = new Date();
+    const day = fileDate.getDate();
 
-  <script>
-      let fileDate = new Date();
-      const day = fileDate.getDate();
-
-      let img = document.getElementById("randomWallpaper");
-      img.src = "/wallpapers/" + day + ".jpg";
-  </script>
+    let img = document.getElementById("randomWallpaper");
+    img.src = "/wallpapers/" + day + ".jpg";
+</script>
 </body>
 </html>
