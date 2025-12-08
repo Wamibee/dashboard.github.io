@@ -2,6 +2,7 @@
 	<div class="blocs-container">
 		<div class="blocs">
 			<RandomWallpaper />
+      <DeezerIframe />
 		</div>
 	</div>
 	<svg class="bokeh" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
@@ -21,11 +22,13 @@
 
 <script>
 import RandomWallpaper from './components/RandomWallpaper.vue'
+import DeezerIframe from './components/DeezerIframe.vue'
 
 export default {
 	name: 'App',
 	components: {
-		RandomWallpaper
+		RandomWallpaper,
+    DeezerIframe
 	}
 }
 </script>
