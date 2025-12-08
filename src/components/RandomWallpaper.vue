@@ -17,6 +17,9 @@ export default {
 				'wallpapers/ernst-3.jpg',
 				'wallpapers/ernst-4.jpg',
 				'wallpapers/ernst-5.jpg',
+          'wallpapers/kerguelen.jpg',
+          'wallpapers/monet-magpie.jpg',
+          'wallpapers/np-snow.jpg'
 			]
 		};
 	},
