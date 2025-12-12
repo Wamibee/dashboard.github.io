@@ -54,3 +54,9 @@ body {
     overflow: hidden;
     background-color: #013;
 }
+
+.randomWallpaper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
